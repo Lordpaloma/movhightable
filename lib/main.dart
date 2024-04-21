@@ -1,6 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:movhightable/pages/contratospage.dart';
+import 'package:movhightable/pages/doctorpage.dart';
 import 'package:movhightable/pages/homepage.dart';
+import 'package:movhightable/pages/hotelespage.dart';
+import 'package:movhightable/pages/limpiadorespage.dart';
 import 'package:movhightable/pages/loginpage.dart';
+import 'package:movhightable/pages/perfilpage.dart';
+import 'package:movhightable/pages/sastrepage.dart';
+import 'package:movhightable/pages/somelierpage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -35,17 +42,19 @@ class MyApp extends StatelessWidget {
           backgroundColor: Color.fromARGB(255, 23, 32, 70),
           foregroundColor: Color.fromARGB(255, 237, 190, 71),
         ),
-        textTheme: TextTheme(
-          subtitle1: TextStyle(
-            color: const Color.fromARGB(255, 237, 190, 71),
-          ),
-        ),
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
       routes: {
         '/':(context) => LoginPage(),
-        '/HomePage':(context) => HomePage()
+        '/HomePage':(context) => HomePage(),
+        '/Contratos':(context) => ContratosPage(),
+        '/Doctor':(context) => DoctorPage(),
+        '/Hoteles':(context) => HotelesPage(),
+        '/limpiadores':(context) =>LimpiadoresPage(),
+        '/Perfil':(context) => PerfilPage(),
+        '/Sastre':(context) => SastrePage(),
+        '/Somelier':(context) => SomelierPage(),
       },
       initialRoute: '/',
     );
