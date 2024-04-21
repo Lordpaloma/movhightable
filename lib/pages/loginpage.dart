@@ -77,6 +77,9 @@ class LoginPage extends StatelessWidget {
                 ),
                 ElevatedButton(
                   child: Text('Inicio'),
+                  style: ElevatedButton.styleFrom(
+                      backgroundColor: Color.fromARGB(255, 23, 32, 70),
+                      foregroundColor: Color.fromARGB(255, 237, 190, 71)),
                   onPressed: () {
                     Navigator.pushNamed(context, '/HomePage');
                   },
