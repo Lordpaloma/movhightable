@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:movhightable/pages/home_page.dart';
+import 'package:movhightable/pages/homepage.dart';
+import 'package:movhightable/pages/loginpage.dart';
 
 void main() {
   runApp(const MyApp());
@@ -42,7 +43,11 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: LoginPage(),
+      routes: {
+        '/':(context) => LoginPage(),
+        '/HomePage':(context) => HomePage()
+      },
+      initialRoute: '/',
     );
   }
 }
