@@ -7,6 +7,11 @@ class ServiciosPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(),
+      body: Padding(
+        padding: EdgeInsets.all(1),
+        
+      ),
+    backgroundColor: Color.fromARGB(255, 27, 27, 31)
     );
   }
 }
