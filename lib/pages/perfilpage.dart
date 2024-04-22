@@ -18,7 +18,7 @@ class PerfilPage extends StatelessWidget {
             ListTile(
               title: Text('Nombre Usuario'),
               subtitle: Text('Jhon Wick'),
-              leading: Image.asset('/asset'),
+              leading: Image.asset('/asset/images/ProPicJhonwic.jpg'),
             )
           ],
         ),
