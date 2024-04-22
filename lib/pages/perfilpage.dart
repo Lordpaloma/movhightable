@@ -16,9 +16,11 @@ class PerfilPage extends StatelessWidget {
         child: ListView(
           children: [
             ListTile(
-              title: Text('Nombre Usuario'),
-              subtitle: Text('Jhon Wick'),
-              leading: Image.asset('/asset/images/ProPicJhonwic.jpg'),
+              title: Text('Nombre Usuario', style: Theme.of(context).textTheme.bodyText2),
+              subtitle: Text('Jhon Wick',style: Theme.of(context).textTheme.bodyText1),
+              leading: Image.asset('assets/images/ProPicJhonwic.jpg',
+              
+              ),
             )
           ],
         ),
