@@ -5,6 +5,7 @@ import 'package:movhightable/pages/homepage.dart';
 import 'package:movhightable/pages/hotelespage.dart';
 import 'package:movhightable/pages/limpiadorespage.dart';
 import 'package:movhightable/pages/loginpage.dart';
+import 'package:movhightable/pages/navigator_page.dart';
 import 'package:movhightable/pages/perfilpage.dart';
 import 'package:movhightable/pages/sastrepage.dart';
 import 'package:movhightable/pages/somelierpage.dart';
@@ -23,28 +24,40 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
-        textTheme:TextTheme(
+
+        textTheme: TextTheme(
           bodyText1: TextStyle(
-            color:Color.fromARGB(255, 237, 190, 71)
-          )
+            color: Color.fromARGB(255, 237, 190, 71),
+            fontStyle: FontStyle.italic,
+          ),
+          bodyText2: TextStyle(
+              color: Color.fromARGB(255, 237, 190, 71),
+              fontSize: 18,
+              fontStyle: FontStyle.italic),
         ),
         appBarTheme: AppBarTheme(
-          backgroundColor: Color.fromARGB(255, 23, 32, 70),
+          backgroundColor: Color.fromARGB(209, 12, 15, 56),
           foregroundColor: Color.fromARGB(255, 237, 190, 71),
+          titleTextStyle: TextStyle(
+            fontStyle: FontStyle.italic,
+            fontSize: 30,
+            color: Color.fromARGB(255, 237, 190, 71),
+          ),
         ),
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
       routes: {
-        '/':(context) => LoginPage(),
-        '/HomePage':(context) => HomePage(),
-        '/Contratos':(context) => ContratosPage(),
-        '/Doctor':(context) => DoctorPage(),
-        '/Hoteles':(context) => HotelesPage(),
-        '/limpiadores':(context) =>LimpiadoresPage(),
-        '/Perfil':(context) => PerfilPage(),
-        '/Sastre':(context) => SastrePage(),
-        '/Somelier':(context) => SomelierPage(),
+        '/': (context) => LoginPage(),
+        '/HomePage': (context) => HomePage(),
+        '/Contratos': (context) => ContratosPage(),
+        '/Doctor': (context) => DoctorPage(),
+        '/Hoteles': (context) => HotelesPage(),
+        '/limpiadores': (context) => LimpiadoresPage(),
+        '/Perfil': (context) => PerfilPage(),
+        '/Sastre': (context) => SastrePage(),
+        '/Somelier': (context) => SomelierPage(),
+        '/Navpag':(context) => Pnav(),
       },
       initialRoute: '/',
     );
