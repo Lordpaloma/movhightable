@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Inicio'),
+          title: Text('Vestíbulo'),
         ),
         body: SingleChildScrollView(
           physics: AlwaysScrollableScrollPhysics(),
@@ -31,7 +31,7 @@ class HomePage extends StatelessWidget {
                   margin: EdgeInsets.all(0),
                   decoration: BoxDecoration(
                       image: DecorationImage(
-                          image: AssetImage('assets/images/hotel1.jpg'),
+                          image: AssetImage('assets/images/2.jpg'),
                           fit: BoxFit.cover),
                       borderRadius: BorderRadius.circular(5)),
                 ),
