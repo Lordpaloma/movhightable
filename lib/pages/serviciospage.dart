@@ -7,7 +7,9 @@ class ServiciosPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-        appBar: AppBar(),
+        appBar: AppBar(
+          title: Text('Servicios'),
+        ),
         body: Padding(
           padding: EdgeInsets.all(20),
           child: ListView(
