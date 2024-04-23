@@ -47,7 +47,7 @@ class HomePage extends StatelessWidget {
                   color: Color.fromARGB(55, 237, 190, 71),
                 ),
                 Container(
-                  padding: EdgeInsets.all(0),
+                  padding: EdgeInsets.all(10),
                   alignment: Alignment.centerLeft,
                   child: Text(
                     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus lacus cursus eros lacinia interdum. Phasellus tempus sem ipsum. Vestibulum luctus nunc neque, vel interdum eros maximus non. Mauris vehicula',
