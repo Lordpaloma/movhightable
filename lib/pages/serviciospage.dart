@@ -24,9 +24,10 @@ class ServiciosPage extends StatelessWidget {
                 title: Text('Doctor',
                     style: Theme.of(context).textTheme.bodyText2),
                 subtitle: Text(
-                  'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+                  'Servicio medico.',
                   style: Theme.of(context).textTheme.bodyText1,
                 ),
+                
                 trailing: Icon(
                   Icons.keyboard_arrow_right_sharp,
                   color: Color.fromARGB(255, 237, 190, 71),
@@ -42,7 +43,7 @@ class ServiciosPage extends StatelessWidget {
                 title: Text('Sommelier',
                     style: Theme.of(context).textTheme.bodyText2),
                 subtitle: Text(
-                  'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+                  'Armas y munición.',
                   style: Theme.of(context).textTheme.bodyText1,
                 ),
                 trailing: Icon(
@@ -57,10 +58,10 @@ class ServiciosPage extends StatelessWidget {
                   MdiIcons.tshirtV,
                   color: Color.fromARGB(255, 237, 190, 71),
                 ),
-                title: Text('Sommelier',
+                title: Text('Sastre',
                     style: Theme.of(context).textTheme.bodyText2),
                 subtitle: Text(
-                  'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+                  'Servicio que proporciona a los clientes su vestuario.',
                   style: Theme.of(context).textTheme.bodyText1,
                 ),
                 trailing: Icon(
@@ -78,7 +79,7 @@ class ServiciosPage extends StatelessWidget {
                 title: Text('Limpiadores',
                     style: Theme.of(context).textTheme.bodyText2),
                 subtitle: Text(
-                  'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
+                  'Servicio para asesinos para limpiar las escenas del crimen y deshacerse de los cadáveres.',
                   style: Theme.of(context).textTheme.bodyText1,
                 ),
                 trailing: Icon(
