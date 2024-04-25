@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class GameCard extends StatelessWidget {
+class Servicios extends StatelessWidget {
   final String nombre;
   final String foto;
   final String servicio;
   final String lugar;
   final String horario;
 
-  GameCard(
+  Servicios(
       {required this.nombre,
       required this.foto,
       required this.servicio,
